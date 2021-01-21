@@ -10,7 +10,7 @@ import com.xiaomi.mipush.sdk.PushMessageReceiver;
 
 import java.util.List;
 
-public class DefaultXiaoMiPushMessageReceiver extends PushMessageReceiver
+public abstract class DefaultXiaoMiPushMessageReceiver extends PushMessageReceiver
 {
     private boolean mHasRegister;
     /** 注册id */
